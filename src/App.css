@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Center all content */
+#root {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style for all containers in the app */
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Override any conflicting styles */
+.App, 
+.container,
+.results-container,
+.setup-container,
+.quiz-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}

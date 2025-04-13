@@ -1,0 +1,34 @@
+// sample-questions.json
+[
+    {
+      "id": 1,
+      "question": "What is the primary function of DNS?",
+      "options": [
+        "To assign IP addresses to new devices",
+        "To translate domain names to IP addresses",
+        "To encrypt network traffic",
+        "To manage database connections"
+      ],
+      "correctAnswer": "To translate domain names to IP addresses",
+      "explanation": "The Domain Name System (DNS) translates human-readable domain names (like example.com) to machine-readable IP addresses."
+    },
+    {
+      "id": 2,
+      "question": "Which encryption algorithm is considered asymmetric?",
+      "options": ["AES", "DES", "RSA", "Blowfish"],
+      "correctAnswer": "RSA",
+      "explanation": "RSA is an asymmetric encryption algorithm that uses a pair of keys (public and private). The others are symmetric encryption algorithms using the same key for encryption and decryption."
+    },
+    {
+      "id": 3,
+      "question": "What does ACID stand for in the context of database transactions?",
+      "options": [
+        "Atomicity, Consistency, Isolation, Durability",
+        "Authentication, Confidentiality, Integrity, Delivery",
+        "Analysis, Computation, Integration, Development",
+        "Authorization, Cryptography, Implementation, Design"
+      ],
+      "correctAnswer": "Atomicity, Consistency, Isolation, Durability",
+      "explanation": "ACID properties ensure reliable processing of database transactions, guaranteeing that all operations complete properly or the database remains unchanged."
+    }
+  ]
