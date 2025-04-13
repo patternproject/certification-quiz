@@ -1,12 +1,22 @@
-# React + Vite
+# Quiz Preparation Tool for Exams
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a locally hosted quiz application designed to help users prepare for certification exams. 
 
-Currently, two official plugins are available:
+# Key features include:
+Ideal for self-paced learning, this tool helps users identify weak areas and track their improvement over multiple quiz sessions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Customizable Quiz Parameters : 
+Users can specify N (total questions) from a pool and M (total time in minutes).
+### Timer Integration : 
+Tracks elapsed time with a countdown clock, ensuring quizzes are time-bound.
+### Detailed Reports : 
+At the end of each quiz, generates a report showing:
+Number of correct answers (A out of N).
+A list of all questions with user answers, correct answers, and explanations for incorrect responses.
+### Question Bank : 
+Questions are stored in a structured format (CSV/JSON) for easy updates and scalability.
+### Progress Tracking : 
+Tracks user progress over time, storing historical quiz results (scores, timestamps, and incorrect answers) in a CSV/JSON file.
+### Tech Stack : 
+Built using Python for backend logic and optionally React/Vite for a frontend interface. Progress and quiz data are stored locally in CSV/JSON files for simplicity.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
